@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+#bugList{
+  font-size: large;
+  color: black;
+}
+#bugs{
+  width: 100%;
+}
+.error{
+  color: red;
+}
+
+.loggedInFalseNavbarWrapper{
+  background-color: green;
+  height: 30px;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  display: flex;
+  justify-content: end;
+  gap: 16px;
+}
+.loggedInTrueNavbarWrapper{
+  background-color:green;
+  height: 30px;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  display: flex;
+  justify-content: end;
+  gap: 16px;
+}
+#soleBugContainer{
+  justify-content: left;
+}
+
+a{
+    border: 1px solid #282c34;
+    padding: 1px;
+    text-decoration: none;
+    background-color: #282c34;
+    color: white;
+}
+button{
+    border: 1px solid #282c34;
+    padding: 3px;
+    text-decoration: none;
+    background-color: #282c34;
+    color: white;
+}
+#tableHeader{
+  border: 1px solid #282c34;
+  padding: 3px;
+  text-decoration: none;
+  background-color: #282c34;
+  color: white;
+}
+
+.bugsWrapper{
+  display:flex;
+  flex-direction: column;
+}
+
+.addProjectDetailsWrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.addBugWrapper{
+  display: flex;
+  flex-direction: column;
+}
+.solveBugWrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.modifyProjectWrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.changeBugStatusWrapper{
+  display: flex;
+  flex-direction: column;
+}
