@@ -1,10 +1,10 @@
 # Full Stack SPA(Single Page Application) 
 
 ## Tehnologii folosite:
-- **Language:** JavaScript
-- **Backend:**  Node.js
-- **Fronted:**  React CSS(Cascade Style Sheets) HTML
-- **RDBMS:** SQLite -> Sequelize ORM
+- **Language:** ***JavaScript***
+- **Backend:**  ***Node.js*** cu framework-ul ***Express*** pentru crearea de ***API-uri RESTful***
+- **Fronted:**  ***React*** pentru construirea interfeței utilizator, împreună cu ***CSS(Cascade Style Sheets)*** pentru stilizare și ***HTML*** pentru structura paginii
+- **RDBMS:** ***SQLite*** cu ORM-ul ***Sequelize*** pentru manipularea datelor 
 
 ## Tema aplicatiei :
 - Aplicația permite comunicarea dintre membri unei echipe ce se ocupa de gestionarea bug-urilor dintr-o aplicatie.
