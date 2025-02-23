@@ -1,27 +1,22 @@
-# Full Stack SPA(Single Page Application) 
-
-## Tehnologii folosite:
+## Technologies Used:
 - **Language:** ***JavaScript***
-- **Backend:**  ***Node.js*** cu framework-ul ***Express*** pentru crearea de ***API-uri RESTful***
-- **Fronted:**  ***React*** pentru construirea interfeței utilizator, împreună cu ***CSS(Cascade Style Sheets)*** pentru stilizare și ***HTML*** pentru structura paginii
-- **RDBMS:** ***SQLite*** cu ORM-ul ***Sequelize*** pentru manipularea datelor 
+- **Backend:** ***Node.js*** with the ***Express*** framework for creating ***RESTful APIs***
+- **Frontend:** ***React*** for building the user interface, along with ***CSS (Cascading Style Sheets)*** for styling and ***HTML*** for page structure
+- **RDBMS:** ***SQLite*** with the ***Sequelize*** ORM for data manipulation
 
-## Tema aplicatiei :
-- Aplicația permite comunicarea dintre membri unei echipe ce se ocupa de gestionarea bug-urilor dintr-o aplicatie.
-- Platforma este bazată pe o aplicație web cu arhitectură de tip Single Page Application
-accesibilă în browser de pe desktop.
+## Application Theme:
+- The application facilitates communication between team members responsible for **bug tracking and management** in a software project.
+- The platform is a **web application** with a **Single Page Application (SPA) architecture**, accessible in a **desktop browser**.
 
-
-### Functionalitati implementate: 
-- Un student trebuie se poate conecta la aplicație cu un cont bazat pe o adresă de email.
-- Un student membru în echipa unui proiect (MP)inregistra un proiect software pentru
-a fi monitorizat prin aplicație, specificând repository-ul proiectului și echipa de proiect.
-- Un student care nu face parte dintr-un proiect înregistrat se poate adauga ca tester (TST) la
-proiect.
-- Ca TST se poate înregistra un bug în aplicație. Bug-ul conține o severitate, o prioritate de
-rezolvare, o descriere și un link la commit-ul la care se referă.
-- Ca MP se pot vedea bug-urile înregistrate pentru proiectele partase.
-- Un MP poate aloca rezolvarea unui bug. Un singur MP poate să aibă alocată rezolvarea
-unui bug la un moment dat.
-- Un MP, după rezolvarea unui bug, poate adăuga un status al rezolvării cu un link la commit-ul
-prin care s-a rezolvat. 
+### Implemented Features:
+- A student can log in to the application using an **email-based account**.
+- A student who is a member of a project team (**MP**) can **register a software project** to be monitored through the application, specifying the project's **repository** and **team members**.
+- A student who is not part of a registered project can **join as a tester (TST)**.
+- As a **TST**, a user can **report a bug** in the application. The bug includes:
+  - **Severity level**
+  - **Resolution priority**
+  - **Description**
+  - **A link to the commit** where the bug was found
+- As an **MP**, a user can view **all reported bugs** for their assigned projects.
+- An **MP** can **assign a bug** to be resolved. Only one MP can have a **bug assigned** at a time.
+- After resolving a bug, an **MP** can **update its status**, including a **link to the commit** where the bug was fixed.
