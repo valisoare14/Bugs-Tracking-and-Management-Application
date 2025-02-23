@@ -6,7 +6,7 @@
 
 ## Application Theme:
 - The application facilitates communication between team members responsible for **bug tracking and management** in a software project.
-- The platform is a **web application** with a **Single Page Application (SPA) architecture**, accessible in a **desktop browser**.
+- The platform is a **web application** accessible in a **desktop browser**.
 
 ### Implemented Features:
 - A student can log in to the application using an **email-based account**.
